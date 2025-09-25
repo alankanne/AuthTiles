@@ -1,0 +1,56 @@
+{
+  "name": "ReactNativeCameraKit",
+  "version": "16.1.2",
+  "summary": "A high performance, fully featured, rock solid camera library for React Native applications",
+  "license": "MIT",
+  "authors": "CameraKit",
+  "homepage": "https://github.com/teslamotors/react-native-camera-kit",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://github.com/teslamotors/react-native-camera-kit.git",
+    "tag": "v16.1.2"
+  },
+  "source_files": [
+    "ios/ReactNativeCameraKit/*.{m,swift,mm}",
+    "ios/generated/rncamerakit_specs/*.{m,mm,cpp}"
+  ],
+  "private_header_files": "ios/ReactNativeCameraKit/ReactNativeCameraKit-Swift.pre.h",
+  "compiler_flags": "-DRCT_NEW_ARCH_ENABLED=1",
+  "dependencies": {
+    "React-Core": [],
+    "React-RCTFabric": [],
+    "ReactCodegen": [],
+    "RCTRequired": [],
+    "RCTTypeSafety": [],
+    "ReactCommon/turbomodule/bridging": [],
+    "ReactCommon/turbomodule/core": [],
+    "React-NativeModulesApple": [],
+    "Yoga": [],
+    "React-Fabric": [],
+    "React-graphics": [],
+    "React-utils": [],
+    "React-featureflags": [],
+    "React-debug": [],
+    "React-ImageManager": [],
+    "React-rendererdebug": [],
+    "React-jsi": [],
+    "React-renderercss": [],
+    "hermes-engine": [],
+    "glog": [],
+    "boost": [],
+    "DoubleConversion": [],
+    "fast_float": [],
+    "fmt": [],
+    "RCT-Folly": [],
+    "SocketRocket": [],
+    "RCT-Folly/Fabric": []
+  },
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/Yoga\"",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
+    "OTHER_CPLUSPLUSFLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED=1 ",
+    "OTHER_SWIFT_FLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED"
+  }
+}

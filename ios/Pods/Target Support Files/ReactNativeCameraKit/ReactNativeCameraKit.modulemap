@@ -1,0 +1,6 @@
+module ReactNativeCameraKit {
+  umbrella header "ReactNativeCameraKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

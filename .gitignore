@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Build output
+ios/build/
+android/build/
+
+# OS / editor junk
+.DS_Store
+*.log
+
+# Env / secrets
+.env

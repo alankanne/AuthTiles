@@ -1,0 +1,1 @@
+../../../Target Support Files/ReactNativeCameraKit/ReactNativeCameraKit-umbrella.h

@@ -1,0 +1,6 @@
+module Pods_AuthTiles {
+  umbrella header "Pods-AuthTiles-umbrella.h"
+
+  export *
+  module * { export * }
+}
