@@ -26,7 +26,7 @@ AuthTiles is a mobile 2FA authenticator app I built as my first foray into React
 
 ## Notes
 
-* This was my first React Native project — scoped, built, and shipped as a functional app to learn mobile development hands-on.
+* This was my first React Native project. It was scoped, built, and shipped as a functional app to learn mobile development hands-on.
 * Core features (QR scan, TOTP codes, draggable tiles) are working. Additional features such as dark mode, settings, and Face ID login are planned. And maybe eventually App Store publication.
 
 ---
